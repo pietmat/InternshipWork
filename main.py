@@ -48,8 +48,8 @@ def ui():
 	l_notification = sg.Window('Success',l_notification, element_justification='c')
 	# window2= sg.Window('Employee face recognition', layout2, element_justification='c', finalize=True)
 	window.Maximize()
-	#window2.Maximize()
-		# Event Loop to process "events" and get the "values" of the inputs
+	# window2.Maximize()
+	# Event Loop to process 
 	while True:
 		event, values = window.read()
 		if event == sg.WIN_CLOSED or event == 'Cancel':  # if user closes window or clicks cancel
